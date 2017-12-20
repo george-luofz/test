@@ -17,4 +17,9 @@
 - (void)dealloc{
     NSLog(@"发现野指针%s::%p=>%@",class_getName(self.originalClass),self,@"dealloc");
 }
+//- (void)release{
+//    NSLog(@"发现野指针%s::%p=>%@",class_getName(self.originalClass),self,@"release");
+//    abort();
+//}
+
 @end

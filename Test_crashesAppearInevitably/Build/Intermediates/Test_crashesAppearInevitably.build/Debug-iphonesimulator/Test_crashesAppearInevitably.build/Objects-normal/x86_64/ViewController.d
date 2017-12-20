@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/luofuzhong/Desktop/Test_crashAppearInevitably/Test_crashAppearInevitably/ViewController.m \
-  /Users/luofuzhong/Desktop/Test_crashAppearInevitably/Test_crashAppearInevitably/ViewController.h
+  /Users/luofuzhong/Desktop/test/Test_crashesAppearInevitably/Test_crashesAppearInevitably/ViewController.m \
+  /Users/luofuzhong/Desktop/test/Test_crashesAppearInevitably/Test_crashesAppearInevitably/ViewController.h

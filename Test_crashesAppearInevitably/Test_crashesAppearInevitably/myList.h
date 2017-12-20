@@ -18,8 +18,6 @@
 
 #ifndef MYLIST_H_INCLUDED
 #define MYLIST_H_INCLUDED
-#include <stdio.h>
-
 
 typedef struct myNode
 {
