@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "8d391c3c85d661be9030d898e00940d4"
-build_time: [1514456937, 387321000]
-inputs:
-  "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Result/Result/Result.swift": [1514456886, 0]
-  "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Result/Result/ResultProtocol.swift": [1514456886, 0]

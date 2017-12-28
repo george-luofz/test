@@ -13,7 +13,7 @@
 		3C03514A1FF4F024008B5181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0351491FF4F024008B5181 /* Assets.xcassets */; };
 		3C03514D1FF4F024008B5181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03514B1FF4F024008B5181 /* LaunchScreen.storyboard */; };
 		3C0351501FF4F024008B5181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03514F1FF4F024008B5181 /* main.m */; };
-		F15F6CC1D4BE4D2E3AAE90BC /* Pods_Test_useReactCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44590B610B40B0323689B318 /* Pods_Test_useReactCocoa.framework */; };
+		E87BF7F0D48192FB6DBB23E1 /* libPods-Test_useReactCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D49D4EF52778655BC23A7AE /* libPods-Test_useReactCocoa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		3C03514C1FF4F024008B5181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C03514E1FF4F024008B5181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C03514F1FF4F024008B5181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44590B610B40B0323689B318 /* Pods_Test_useReactCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_useReactCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC672C0DF0778933A35D9F9 /* Pods-Test_useReactCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_useReactCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_useReactCocoa/Pods-Test_useReactCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		6D49D4EF52778655BC23A7AE /* libPods-Test_useReactCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test_useReactCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15F6CC1D4BE4D2E3AAE90BC /* Pods_Test_useReactCocoa.framework in Frameworks */,
+				E87BF7F0D48192FB6DBB23E1 /* libPods-Test_useReactCocoa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		4FED2791C48BCCC4749E76DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44590B610B40B0323689B318 /* Pods_Test_useReactCocoa.framework */,
+				6D49D4EF52778655BC23A7AE /* libPods-Test_useReactCocoa.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
