@@ -1,0 +1,124 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "class_getImmediateMethod"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "=="
+- "AnyClass"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "Method"
+- "Selector"
+- !private "UInt32"
+- !private "class_copyMethodList"
+- "class_getImmediateMethod"
+- !private "free"
+- !private "method_getName"
+depends-member:
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "subscript"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "subscript"]
+- !private ["Sp", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "subscript"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "Sp"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "688c5bea04e94197ce3351937ab3810f"

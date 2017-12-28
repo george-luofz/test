@@ -19,23 +19,24 @@ Class sDPCatchISA;
 size_t sDPCatchSize;
 
 static void (*orig_free)(void *);
-//将要释放的对象重置其isa指针，对该对象调用某方法时，消息转发会走我们的方法
+//将释放的对象重置其isa指针，对该对象调用某方法时，消息转发会走我们的方法
 void DPFree(void *p){
     size_t memSize = malloc_size(p);
     if(memSize > sDPCatchSize){
-        id obj = (__bridge id)p;//md，为啥在这崩溃
+        id obj = (__bridge_transfer id)p;//md，为啥在这崩溃
         Class originClass = object_getClass(obj);
         if(originClass && CFSetContainsValue(regeisteredClasses, (__bridge const void *)(originClass))){
-            memset((__bridge void *)obj, 0x55, memSize);
-            memcpy((__bridge void *)obj, &sDPCatchISA, sizeof(void *));
+            memset((__bridge void *)obj, 0x55, memSize);//在Xcode9上是0x10
+            memcpy((__bridge void *)obj, &sDPCatchISA, sizeof(void *)); //拷贝DPCatcher ISA地址到obj上，obj上首地址，就是其isa地址
             
             DPCatcher *bug=(__bridge DPCatcher *)p;
             bug.originalClass = originClass;
+            orig_free(p);
             return;
         }
-        memset((__bridge void *)obj, 0x55, memSize);
     }
-    
+    memset(p, 0x55, memSize);
+    orig_free(p);
 }
 
 void init(void){

@@ -1,0 +1,92 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Lifetime"
+- "+="
+provides-nominal:
+- "13ReactiveSwift8LifetimeC"
+- "13ReactiveSwift8LifetimeC5TokenC"
+provides-member:
+- ["13ReactiveSwift8LifetimeC", ""]
+- ["13ReactiveSwift8LifetimeC5TokenC", ""]
+- ["13ReactiveSwift8LifetimeC", "make"]
+- ["13ReactiveSwift8LifetimeC", "empty"]
+- ["13ReactiveSwift8LifetimeC", "Token"]
+provides-dynamic-lookup:
+depends-top-level:
+- "+="
+- "AssignmentPrecedence"
+- "Bool"
+- "CompositeDisposable"
+- "Disposable"
+- "Lifetime"
+- "Never"
+- "NoError"
+- "Signal"
+- "Void"
+depends-member:
+- !private ["13ReactiveSwift13BindingSourceP", "init"]
+- ["13ReactiveSwift19CompositeDisposableC", "deinit"]
+- ["13ReactiveSwift19CompositeDisposableC", "dispose"]
+- ["13ReactiveSwift19CompositeDisposableC", "init"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "isDisposed"]
+- ["13ReactiveSwift10DisposableP", "dispose"]
+- ["13ReactiveSwift10DisposableP", "init"]
+- !private ["13ReactiveSwift10DisposableP", "isDisposed"]
+- ["13ReactiveSwift8LifetimeC", "+="]
+- ["13ReactiveSwift8LifetimeC", "Bool"]
+- ["13ReactiveSwift8LifetimeC", "CompositeDisposable"]
+- ["13ReactiveSwift8LifetimeC", "Disposable"]
+- ["13ReactiveSwift8LifetimeC", "Lifetime"]
+- ["13ReactiveSwift8LifetimeC", "Never"]
+- ["13ReactiveSwift8LifetimeC", "NoError"]
+- ["13ReactiveSwift8LifetimeC", "Signal"]
+- ["13ReactiveSwift8LifetimeC", "Token"]
+- ["13ReactiveSwift8LifetimeC", "Void"]
+- ["13ReactiveSwift8LifetimeC", "deinit"]
+- !private ["13ReactiveSwift8LifetimeC", "disposables"]
+- ["13ReactiveSwift8LifetimeC", "empty"]
+- ["13ReactiveSwift8LifetimeC", "ended"]
+- ["13ReactiveSwift8LifetimeC", "hasEnded"]
+- ["13ReactiveSwift8LifetimeC", "init"]
+- ["13ReactiveSwift8LifetimeC", "make"]
+- ["13ReactiveSwift8LifetimeC", "observeEnded"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendCompleted"]
+- !private ["13ReactiveSwift6SignalC", "init"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "init"]
+- !private ["13ReactiveSwift14SignalProtocolP", "init"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "CompositeDisposable"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "deinit"]
+- !private ["13ReactiveSwift8LifetimeC5TokenC", "disposables"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "init"]
+depends-nominal:
+- !private "13ReactiveSwift13BindingSourceP"
+- "13ReactiveSwift19CompositeDisposableC"
+- "13ReactiveSwift10DisposableP"
+- "13ReactiveSwift8LifetimeC"
+- !private "13ReactiveSwift6SignalC8ObserverC"
+- !private "13ReactiveSwift6SignalC"
+- !private "13ReactiveSwift25SignalProducerConvertibleP"
+- !private "13ReactiveSwift14SignalProtocolP"
+- "13ReactiveSwift8LifetimeC5TokenC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "0698ca58d82d289904687244489057a3"

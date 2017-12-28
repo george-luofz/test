@@ -1,0 +1,65 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "prepare"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BindingTarget"
+- "Reactive"
+- "UIFeedbackGenerator"
+depends-member:
+- !private ["s7CVarArgP", "prepare"]
+- !private ["s28CustomDebugStringConvertibleP", "prepare"]
+- !private ["s23CustomStringConvertibleP", "prepare"]
+- !private ["s9EquatableP", "prepare"]
+- !private ["s8HashableP", "prepare"]
+- !private ["So8NSObjectC", "prepare"]
+- !private ["So16NSObjectProtocolP", "prepare"]
+- ["13ReactiveSwift0A0V", "BindingTarget"]
+- ["13ReactiveSwift0A0V", "UIFeedbackGenerator"]
+- !private ["13ReactiveSwift0A0V", "makeBindingTarget"]
+- ["13ReactiveSwift0A0V", "prepare"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "prepare"]
+- !private ["So19UIFeedbackGeneratorC", "prepare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepare"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "13ReactiveSwift0A0V"
+- !private "13ReactiveSwift0A18ExtensionsProviderP"
+- !private "So19UIFeedbackGeneratorC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "27557d9c96e8cad228db000eb04fa347"

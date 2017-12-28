@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "reloadData"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BindingTarget"
+- "Reactive"
+- "UICollectionView"
+depends-member:
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- ["13ReactiveSwift0A0V", "BindingTarget"]
+- ["13ReactiveSwift0A0V", "UICollectionView"]
+- !private ["13ReactiveSwift0A0V", "makeBindingTarget"]
+- ["13ReactiveSwift0A0V", "reloadData"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So16UICollectionViewC", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So11UIResponderC", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "13ReactiveSwift0A0V"
+- !private "13ReactiveSwift0A18ExtensionsProviderP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "b8325b19ed71dc739393468e3d20f984"

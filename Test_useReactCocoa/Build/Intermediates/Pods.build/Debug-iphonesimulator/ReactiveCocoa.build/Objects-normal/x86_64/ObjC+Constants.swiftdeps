@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjCSelector"
+- "ObjCMethodEncoding"
+- "ObjCTypeEncoding"
+provides-nominal:
+- "13ReactiveCocoa12ObjCSelectorO"
+- "13ReactiveCocoa18ObjCMethodEncodingO"
+- "13ReactiveCocoa16ObjCTypeEncodingO"
+provides-member:
+- ["13ReactiveCocoa12ObjCSelectorO", ""]
+- ["13ReactiveCocoa18ObjCMethodEncodingO", ""]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "CChar"
+- "Int8"
+- "ObjCMethodEncoding"
+- "ObjCSelector"
+- "ObjCTypeEncoding"
+- "Selector"
+- !private "StaticString"
+- "StringLiteralType"
+- !private "UnsafePointer"
+- !private "UnsafeRawPointer"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8Start"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "utf8Start"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "utf8Start"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "assumingMemoryBound"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "assumingMemoryBound"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8Start"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8Start"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8Start"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "CChar"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "StaticString"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "UnsafePointer"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "UnsafeRawPointer"]
+- ["13ReactiveCocoa18ObjCMethodEncodingO", "extract"]
+- ["13ReactiveCocoa18ObjCMethodEncodingO", "forwardInvocation"]
+- ["13ReactiveCocoa18ObjCMethodEncodingO", "getClass"]
+- ["13ReactiveCocoa18ObjCMethodEncodingO", "methodSignatureForSelector"]
+- ["13ReactiveCocoa12ObjCSelectorO", "Selector"]
+- ["13ReactiveCocoa12ObjCSelectorO", "forwardInvocation"]
+- ["13ReactiveCocoa12ObjCSelectorO", "getClass"]
+- ["13ReactiveCocoa12ObjCSelectorO", "methodSignatureForSelector"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "RawValue"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "bool"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "char"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "deinit"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "double"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "float"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "hashValue"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "init"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "int"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "long"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "longLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "object"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "rawValue"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "selector"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "short"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "type"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "undefined"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedChar"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedInt"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedLongLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedShort"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["13ReactiveSwift16OptionalProtocolP", "assumingMemoryBound"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "init"]
+- ["10ObjectiveC8SelectorV", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "utf8Start"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SV", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8Start"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8Start"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8Start"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "assumingMemoryBound"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "13ReactiveCocoa18ObjCMethodEncodingO"
+- "13ReactiveCocoa12ObjCSelectorO"
+- "13ReactiveCocoa16ObjCTypeEncodingO"
+- !private "Sq"
+- !private "13ReactiveSwift16OptionalProtocolP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "13ReactiveSwift0A18ExtensionsProviderP"
+- "10ObjectiveC8SelectorV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "SV"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/luofuzhong/Desktop/test/Test_useReactCocoa/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "fe21a10367146e9d0a5d317013123d5a"

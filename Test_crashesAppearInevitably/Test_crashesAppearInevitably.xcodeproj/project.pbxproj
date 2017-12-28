@@ -17,7 +17,6 @@
 		3CEDB7B91FE9FCEA00E44576 /* DPCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7AC1FE9FCE900E44576 /* DPCatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3CEDB7BB1FE9FCEA00E44576 /* DPISARegeister.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7B01FE9FCE900E44576 /* DPISARegeister.m */; };
 		3CEDB7BC1FE9FCEA00E44576 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7B11FE9FCE900E44576 /* fishhook.c */; };
-		3CEDB7BE1FE9FCEA00E44576 /* Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7B41FE9FCEA00E44576 /* Hook.m */; };
 		3CEDB7C01FEA012F00E44576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7BF1FEA012F00E44576 /* main.m */; };
 		3CEDB7C31FEA013800E44576 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDB7C21FEA013800E44576 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		3CEDB7A41FE9FCE900E44576 /* DSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSQueue.h; sourceTree = "<group>"; };
 		3CEDB7A51FE9FCE900E44576 /* DSFreeMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSFreeMemory.h; sourceTree = "<group>"; };
 		3CEDB7A61FE9FCE900E44576 /* DSQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DSQueue.c; sourceTree = "<group>"; };
-		3CEDB7A71FE9FCE900E44576 /* Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hook.h; sourceTree = "<group>"; };
 		3CEDB7A81FE9FCE900E44576 /* myList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myList.c; sourceTree = "<group>"; };
 		3CEDB7AC1FE9FCE900E44576 /* DPCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCatcher.m; sourceTree = "<group>"; };
 		3CEDB7AD1FE9FCE900E44576 /* DPISARegeister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPISARegeister.h; sourceTree = "<group>"; };
@@ -43,7 +41,6 @@
 		3CEDB7B01FE9FCE900E44576 /* DPISARegeister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPISARegeister.m; sourceTree = "<group>"; };
 		3CEDB7B11FE9FCE900E44576 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		3CEDB7B31FE9FCE900E44576 /* myList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myList.h; sourceTree = "<group>"; };
-		3CEDB7B41FE9FCEA00E44576 /* Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hook.m; sourceTree = "<group>"; };
 		3CEDB7BF1FEA012F00E44576 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CEDB7C11FEA013800E44576 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3CEDB7C21FEA013800E44576 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -83,8 +80,6 @@
 				3CEDB7AB1FE9FCE900E44576 /* crash3 */,
 				3CEDB7B11FE9FCE900E44576 /* fishhook.c */,
 				3CEDB7A11FE9FCE800E44576 /* fishhook.h */,
-				3CEDB7A71FE9FCE900E44576 /* Hook.h */,
-				3CEDB7B41FE9FCEA00E44576 /* Hook.m */,
 				3CEDB7BF1FEA012F00E44576 /* main.m */,
 				3CEDB7A81FE9FCE900E44576 /* myList.c */,
 				3CEDB7B31FE9FCE900E44576 /* myList.h */,
@@ -193,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEDB7BE1FE9FCEA00E44576 /* Hook.m in Sources */,
 				3CEDB7B71FE9FCEA00E44576 /* myList.c in Sources */,
 				3CEDB7BB1FE9FCEA00E44576 /* DPISARegeister.m in Sources */,
 				3CEDB7B51FE9FCEA00E44576 /* DSFreeMemory.c in Sources */,
@@ -337,12 +331,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D67U6A2Y7Z;
 				INFOPLIST_FILE = Test_crashesAppearInevitably/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yixiad.Test-crashesAppearInevitably";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7b1db9de-f6f1-48ac-b5c4-d1071409f259";
+				PROVISIONING_PROFILE_SPECIFIER = YixiaddinHouseDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -354,6 +350,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Test_crashesAppearInevitably/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yixiad.Test-crashesAppearInevitably";
 				PRODUCT_NAME = "$(TARGET_NAME)";
