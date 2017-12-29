@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test_useReactCocoa/ViewController.m"
+            timestampString = "536235108.083245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-signInSignal"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[ViewController signInSignal]_block_invoke"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/ViewController.m"
+                  timestampString = "536233280.120915"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[ViewController signInSignal]_block_invoke_2"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/ViewController.m"
+                  timestampString = "536233280.12342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test_useReactCocoa/ViewController.m"
+            timestampString = "536235108.083769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-signInSignal"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test_useReactCocoa/LoginService.m"
+            timestampString = "536235108.084041"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "-loginWithUsername:passwd:completed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginService loginWithUsername:passwd:completed:]"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/LoginService.m"
+                  timestampString = "536233280.219115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[LoginService loginWithUsername:passwd:completed:]_block_invoke"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/LoginService.m"
+                  timestampString = "536233280.221865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test_useReactCocoa/ViewController.m"
+            timestampString = "536235108.08418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-signInSignal"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[ViewController signInSignal]_block_invoke"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/ViewController.m"
+                  timestampString = "536233280.232767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.141"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/ViewController.m"
+                  timestampString = "536233280.238456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.142"
+                  moduleName = "Test_useReactCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luofuzhong/Desktop/test/Test_useReactCocoa/Test_useReactCocoa/ViewController.m"
+                  timestampString = "536233280.242878"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
